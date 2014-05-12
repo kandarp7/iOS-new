@@ -21,6 +21,7 @@
 		7F6C02A919218174008B31DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6C028B19218174008B31DF /* UIKit.framework */; };
 		7F6C02B119218174008B31DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F6C02AF19218174008B31DF /* InfoPlist.strings */; };
 		7F6C02B319218174008B31DF /* GitHubProjTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6C02B219218174008B31DF /* GitHubProjTests.m */; };
+		7F6C02BE1921822D008B31DF /* UICollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6C02BD1921822D008B31DF /* UICollection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7F6C02AE19218174008B31DF /* GitHubProjTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitHubProjTests-Info.plist"; sourceTree = "<group>"; };
 		7F6C02B019218174008B31DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F6C02B219218174008B31DF /* GitHubProjTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubProjTests.m; sourceTree = "<group>"; };
+		7F6C02BC1921822D008B31DF /* UICollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollection.h; sourceTree = "<group>"; };
+		7F6C02BD1921822D008B31DF /* UICollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		7F6C027B19218173008B31DF = {
 			isa = PBXGroup;
 			children = (
+				7F6C02BC1921822D008B31DF /* UICollection.h */,
+				7F6C02BD1921822D008B31DF /* UICollection.m */,
 				7F6C028D19218174008B31DF /* GitHubProj */,
 				7F6C02AC19218174008B31DF /* GitHubProjTests */,
 				7F6C028619218174008B31DF /* Frameworks */,
@@ -253,6 +258,7 @@
 				7F6C029819218174008B31DF /* UICollectionAppDelegate.m in Sources */,
 				7F6C029E19218174008B31DF /* UICollectionViewController.m in Sources */,
 				7F6C029419218174008B31DF /* main.m in Sources */,
+				7F6C02BE1921822D008B31DF /* UICollection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
